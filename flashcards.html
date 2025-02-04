@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Section for Flashcards -->
+    <main class="main-content">
+        <h2>Your Flashcards</h2>
+        <p>Create and view your flashcards to help with memorization.</p>
+
+        <!-- Flashcard Form -->
+        <div class="flashcard-form">
+            <input type="text" id="subject" placeholder="Enter Subject" required>
+            <textarea id="definition" placeholder="Enter Formula/Definition" required></textarea>
+            <button onclick="addFlashcard()">Add Flashcard</button>
+        </div>
+
+        <!-- Flashcards List -->
+        <div id="flashcards-list">
+            <h3>Flashcards:</h3>
+            <div id="flashcard-container">
+                <!-- Flashcards will be added here dynamically -->
+            </div>
+        </div>
+    </main>
+
+   
+</body>
+</html>

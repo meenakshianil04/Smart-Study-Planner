@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress - Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Main Section for Progress -->
+    <main class="main-content">
+        <h2>Your Study Progress</h2>
+        <p>Track your study time, streaks, and progress!</p>
+
+        <!-- Pie Chart for Study Progress -->
+        <div class="chart-container">
+            <canvas id="studyPieChart"></canvas>
+        </div>
+
+        <!-- Streak Box -->
+        <div class="streak-box">
+            <h3>Current Streak: <span id="streak-count">5</span> days</h3>
+            <div id="streak-message"></div>
+        </div>
+
+        <!-- Message Box -->
+        <div class="message-box">
+            <p id="message">Keep it up!</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Study Planner</p>
+    </footer>
+
+    <script src="progress.js"></script>
+</body>
+</html>

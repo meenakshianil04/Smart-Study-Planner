@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Text Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000,#420101)
+}
+
+/* Navbar Styles */
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2eaea;
+    padding: 15px 30px;
+}
+
+header .navbar h1 {
+    color: rgb(255, 255, 255);
+}
+
+header .navbar nav ul {
+    list-style-type: none;
+}
+
+header .navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+    color: #f2eaea;
+}
+
+.main-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #e99050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Text Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000, #420101);
+    color: #f2eaea;
+}
+
+/* Navbar Styles */
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2eaea;
+    padding: 15px 30px;
+}
+
+header .navbar h1 {
+    color: rgb(255, 255, 255);
+}
+
+header .navbar nav ul {
+    list-style-type: none;
+}
+
+header .navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #e99050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Progress Page Styles */
+.chart-container {
+    width: 50%; /* Reduced width to make the pie chart smaller */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* Streak Box */
+.streak-box {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.streak-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.streak-box #streak-count {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Message Box */
+.message-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d1ffd1;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.message-box p {
+    font-size: 20px;
+    color: #333;
+}
+
+.message-box.toxic {
+    background-color: #ffcccc;
+}
+
+/* Current Streak Heading Styling */
+#streak-heading {
+    color: #e6db0f; /* Change this to any color you prefer */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
