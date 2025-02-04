@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKS - Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1>TASKS - Study Planner</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-content">
+        <section class="task-table">
+            <h2>Study Task Planner</h2>
+            <p>Plan your study sessions by adding tasks and setting deadlines and times to complete them.</p>
+
+            <!-- Task Table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Task</th>
+                        <th>Timing</th>
+                        <th>Deadline</th>
+                        <th>Completed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Subject"></td>
+                        <td><input type="text" placeholder="Task"></td>
+                        <td><input type="time"></td>
+                        <td><input type="date"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Subject"></td>
+                        <td><input type="text" placeholder="Task"></td>
+                        <td><input type="time"></td>
+                        <td><input type="date"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Subject"></td>
+                        <td><input type="text" placeholder="Task"></td>
+                        <td><input type="time"></td>
+                        <td><input type="date"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+
+            <button onclick="addTask()">Add New Task</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TASKS - Study Planner</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
